@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1232836D-6663-022D-05C9-F8B328ECE244" name="Adresser Livraison">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>D01D62F5-CA7F-7F63-961E-5DA4708898DD</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="adressesLivraison id" id="272E9BB6-8FAE-B373-D6C4-7F94945EA1CD">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant de l&apos;adresse</comment>
+<generatorID>BA3A4945-0B7C-C1E1-E503-C89CE1440997</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>28FC535C-2E6F-A9D3-B4F0-D672E9AC3C05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Commandes commandes id" id="E5896942-C932-3748-41ED-3DD82F0F450F">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>92C3AC50-55D9-80BF-661D-B2401BA6ADF1</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>0033A0BE-D892-1075-D2E2-7FCC165F6545</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B68EE820-89F4-B126-098F-4417FA154008" name="Adresser Livraison PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>35AA64E0-8DE3-8D1F-7D95-33D84FE54007</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>272E9BB6-8FAE-B373-D6C4-7F94945EA1CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

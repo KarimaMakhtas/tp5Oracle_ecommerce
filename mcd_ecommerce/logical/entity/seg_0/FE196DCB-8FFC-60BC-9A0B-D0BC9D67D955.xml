@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE196DCB-8FFC-60BC-9A0B-D0BC9D67D955" name="Categorie">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>48AB3A2B-CD6A-9363-93CC-3E97712869DE</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="categorie id" id="93577B4B-FD38-70D5-9523-82EF28B24D15">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant de la catégorie</comment>
+<generatorID>C949F922-72A8-AF95-8FBD-274D671C5E8B</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="categorie libelle" id="4C1D2AEF-2FDF-834E-BA12-A3A7C635AAC1">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<comment>C&apos;est l&apos;intitulé de a catégorie</comment>
+<generatorID>75FC7DC2-D7D4-C0B2-EA04-B201094B4020</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC72FEFA-82AC-997B-8BFC-FCFD2599BD96" name="Categorie PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>CFA3887C-25DD-9233-8545-EE6090413616</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93577B4B-FD38-70D5-9523-82EF28B24D15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

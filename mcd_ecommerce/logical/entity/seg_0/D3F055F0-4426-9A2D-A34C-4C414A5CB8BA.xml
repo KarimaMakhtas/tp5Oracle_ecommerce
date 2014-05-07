@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3F055F0-4426-9A2D-A34C-4C414A5CB8BA" name="Fournisseur">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>689CD10E-DE21-6B9D-062A-E7A540BBBE5A</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fournisseur id" id="4FA61212-DDE5-2AB9-7801-9F331C7D4A77">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du fournisseur</comment>
+<generatorID>D142BF8F-76A2-E5C5-BAEB-19776701B975</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Fournisseur libelle" id="970F09B9-4B7F-4C2B-6289-B1B196B3BD1D">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;es le nom du fournisseur</comment>
+<generatorID>15CAB4D7-40D1-EA60-E5DD-AEC96D469BD8</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="Adresses adresses id" id="D495F3B8-C497-5A5F-2D1D-970A313F5C44">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>2198DCB4-2A4C-5982-C9D7-80B6DF270408</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>28FC535C-2E6F-A9D3-B4F0-D672E9AC3C05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="fournisseur email" id="D03AB6B4-2F88-9446-16BE-9D4CB5A75A4F">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>c&apos;est l&apos;adresse courriel du fournisseur</comment>
+<generatorID>C174084A-E141-213A-33A2-2E8B956796FB</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63C0EED2-C2B6-A003-232A-F9D65D8C29B2" name="Fornisseur PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>1341912B-3B73-9A58-09C5-481258D596D8</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FA61212-DDE5-2AB9-7801-9F331C7D4A77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

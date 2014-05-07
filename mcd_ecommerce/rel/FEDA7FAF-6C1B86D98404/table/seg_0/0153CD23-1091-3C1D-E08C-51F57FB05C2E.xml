@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0153CD23-1091-3C1D-E08C-51F57FB05C2E" name="Appartenir">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:24:34 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Articles_articles_numero" id="E76A5F83-F452-427D-9A4E-74CDE80694B2">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:25:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC0F04E3-480B-7D45-2D8A-646196285C4A" referredColumn="87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9"/>
+</associations>
+</Column>
+<Column name="Categorie_categorie_id" id="4123E02B-1227-79FD-07E5-A0C184BC45DD">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:27:09 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C949F922-72A8-AF95-8FBD-274D671C5E8B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="593A7EA1-D656-6C7D-0FD0-0527CA907FC8" referredColumn="C949F922-72A8-AF95-8FBD-274D671C5E8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E54CBC67-6566-56B2-511D-DFBB13C291D9" name="Appartenir_Articles_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:25:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76A5F83-F452-427D-9A4E-74CDE80694B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6262B742-6EBA-E55B-1A83-C6AB117BFFEC" name="Appartenir_Categorie_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:27:09 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4123E02B-1227-79FD-07E5-A0C184BC45DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

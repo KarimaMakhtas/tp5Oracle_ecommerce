@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBFB78AF-74DB-DE66-A9C5-5B8E3A200326" name="Articles">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>41F1F7EA-BBAB-CC2F-F837-831C0E392287</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="articles numero" id="E4185E83-CF4B-951B-8ABA-FD3E98762F48">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<comment>Est l&apos;identifiant d&apos;un article. C&apos;est un entier.</comment>
+<generatorID>87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB3FE0DC-A2F2-8DDB-4C83-F0175007E480" name="Article PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>4C01EAC2-87E8-1857-47AA-B1F83D1B7C8D</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4185E83-CF4B-951B-8ABA-FD3E98762F48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

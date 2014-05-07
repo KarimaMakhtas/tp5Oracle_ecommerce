@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25263897-2B23-6F24-B540-69BBFAB6E38D" name="Mouvement">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:31:08 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mouvement_id" id="54CF6798-2305-531B-A630-31CD2B7E20DC">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:33:15 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du mouvement</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouvement_date" id="201F7296-FBF0-B843-8EDB-6A6357CDFBF5">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:33:15 UTC</createdTime>
+<comment>C&apos;est la date à laquelle le mouvement a été effectué</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouvement_valeur" id="9A82D079-F7A8-48EC-D262-CF0674C1D471">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:33:15 UTC</createdTime>
+<comment>C&apos;est la quantité de mouvement</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41DE4255-332B-C50E-B103-39B38DF8A465" name="Mouvement_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:33:15 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54CF6798-2305-531B-A630-31CD2B7E20DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

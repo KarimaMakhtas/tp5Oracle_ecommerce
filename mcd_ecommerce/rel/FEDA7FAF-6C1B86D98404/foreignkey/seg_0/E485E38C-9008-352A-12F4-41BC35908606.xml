@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E485E38C-9008-352A-12F4-41BC35908606" name="Fournir_Fornisseur_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:04:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<containerWithKeyObject>93770919-2C73-AF87-1BF5-9062381F398E</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>2049CBD7-933F-8A84-B15F-FB0F6183A42D</localFKIndex>
+<keyObject>1341912B-3B73-9A58-09C5-481258D596D8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

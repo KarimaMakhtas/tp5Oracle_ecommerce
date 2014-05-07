@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48AB3A2B-CD6A-9363-93CC-3E97712869DE" name="Categorie">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:14:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="categorie_id" id="C949F922-72A8-AF95-8FBD-274D671C5E8B">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:15:12 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant de la catégorie</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categorie_libelle" id="75FC7DC2-D7D4-C0B2-EA04-B201094B4020">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:15:48 UTC</createdTime>
+<comment>C&apos;est l&apos;intitulé de a catégorie</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFA3887C-25DD-9233-8545-EE6090413616" name="Categorie_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:15:12 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C949F922-72A8-AF95-8FBD-274D671C5E8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

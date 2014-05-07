@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C7996D4-2934-919F-F841-91893F4164AA" name="ETAPE_COMMANDE">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:16:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="etapeCommande_id" id="DFD7B0B4-7595-F855-9372-503446C69497">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:18:28 UTC</createdTime>
+<comment>C&apos;est le numéro d&apos;étape de la commande</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="etapeCom_lbelle" id="856C7AB6-9BAA-432F-38E0-5B4DCCFEBB10">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:20:11 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D0CAC0E-7D3E-DA2E-82F9-3DE2C5733770" name="ETAPE_COMMANDE_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:20:11 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD7B0B4-7595-F855-9372-503446C69497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

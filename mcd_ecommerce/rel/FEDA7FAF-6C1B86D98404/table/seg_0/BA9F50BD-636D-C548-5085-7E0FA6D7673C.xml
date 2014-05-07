@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA9F50BD-636D-C548-5085-7E0FA6D7673C" name="Subir">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:11:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="changements_id" id="92D2F147-6E68-70C0-5BFA-7B70CB3E5676">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:16:52 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du changement</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>DAD2E10E-83CB-038B-BBBD-D1A5CFF3CFAD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76B8DC0D-D41E-6367-054D-04EE02421B51" referredColumn="DAD2E10E-83CB-038B-BBBD-D1A5CFF3CFAD"/>
+</associations>
+</Column>
+<Column name="articles_numero" id="A47D4BF2-2FD8-F3BE-5505-C1C6E3DE0F09">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:17:07 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant d&apos;un article</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38199375-ECF5-E220-0167-B87621C51FCD" referredColumn="87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9"/>
+</associations>
+</Column>
+<Column name="champs_id" id="4D09F998-A9AD-DFE5-9D1C-58068E9E2C4A">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:10:07 UTC</createdTime>
+<comment>c&apos;est l&apos;identifiant de la table champs</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7C14ED2B-294F-1316-9B79-5580BF6336B0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44CE0B5D-EAE0-DA00-4606-4833E315880E" referredColumn="7C14ED2B-294F-1316-9B79-5580BF6336B0"/>
+</associations>
+</Column>
+<Column name="champs_libelle" id="EFA3FD8E-9E1F-3363-09F1-BBAE9001381D">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:37:50 UTC</createdTime>
+<comment>c&apos;est l&apos;identifiant de la table champs</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<delegate>3954FDA0-BF27-9D0D-9409-5F37E5C1D93C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44CE0B5D-EAE0-DA00-4606-4833E315880E" referredColumn="3954FDA0-BF27-9D0D-9409-5F37E5C1D93C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DDCA555-9C77-3468-1A23-8D68C61D2D95" name="Subir_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:15:09 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92D2F147-6E68-70C0-5BFA-7B70CB3E5676"/>
+<colUsage columnID="A47D4BF2-2FD8-F3BE-5505-C1C6E3DE0F09"/>
+<colUsage columnID="EFA3FD8E-9E1F-3363-09F1-BBAE9001381D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E598D99-781D-BA43-677E-E00492EE844F" name="Subir_Changement_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:16:52 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92D2F147-6E68-70C0-5BFA-7B70CB3E5676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D545B477-3666-FC5C-43C4-3D502762BE3A" name="Subir_Articles_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:17:07 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A47D4BF2-2FD8-F3BE-5505-C1C6E3DE0F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEE95120-DB3A-164D-0CB1-61FBC5BCE0E9" name="Subir_Champs_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-07 09:10:07 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D09F998-A9AD-DFE5-9D1C-58068E9E2C4A"/>
+<colUsage columnID="EFA3FD8E-9E1F-3363-09F1-BBAE9001381D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D01D62F5-CA7F-7F63-961E-5DA4708898DD" name="Adresser_Livraison">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 21:58:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="adressesLivraison_id" id="96725738-9341-4F0A-325D-8F05A9BA7C35">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:06:32 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant de l&apos;adresse</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7C5B3A32-370B-69DA-A6CE-F7431D0D85AE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="721742D7-596D-6BC4-CC8C-11B32F3F00A2" referredColumn="7C5B3A32-370B-69DA-A6CE-F7431D0D85AE"/>
+</associations>
+</Column>
+<Column name="Commandes_commandes_id" id="FB941D84-8777-74D0-6C3F-0DA41AB2740A">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:54:00 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0520788D-ECD1-5A40-F248-6658CFB5EB1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A0CC525-8B60-E913-659D-850729320A8F" referredColumn="0520788D-ECD1-5A40-F248-6658CFB5EB1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35AA64E0-8DE3-8D1F-7D95-33D84FE54007" name="Adresser_Livraison_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:14:52 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96725738-9341-4F0A-325D-8F05A9BA7C35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F65250AB-26AD-DCE1-80A5-9A5D475A802A" name="AdresserLivr_Adresses_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:06:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96725738-9341-4F0A-325D-8F05A9BA7C35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F106189-4943-2643-3E03-2FFD53769B77" name="AdresserLivr_Commandes_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:54:00 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB941D84-8777-74D0-6C3F-0DA41AB2740A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

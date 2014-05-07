@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="926A2845-B3A7-71F9-6719-074DEA3B89F0" name="Appartenir">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>0153CD23-1091-3C1D-E08C-51F57FB05C2E</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Articles articles numero" id="C8334955-AB85-60D2-1942-E86EEDFF9EB7">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>B089AAE0-2995-95F4-B758-7A5715A632D9</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>E4185E83-CF4B-951B-8ABA-FD3E98762F48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Categorie categorie id" id="DF8AADE0-11E0-E423-AFF1-8B9B56852861">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:37 UTC</createdTime>
+<generatorID>51A92A6F-7546-0C10-ED53-CB8F9A53CA44</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>93577B4B-FD38-70D5-9523-82EF28B24D15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

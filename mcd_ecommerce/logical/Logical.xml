@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F1A3AF0F-872B-9825-1F38-A71993D050BC" mainViewID="24D71C53-AA99-7074-9820-FFD9DC167E66">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 08:15:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

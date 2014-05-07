@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BD77975-B97A-9DE5-EC96-FC00A4BC3729" name="Mouvement">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>25263897-2B23-6F24-B540-69BBFAB6E38D</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mouvement id" id="79958330-798E-9C0F-F185-7DEC59E29ED0">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du mouvement</comment>
+<generatorID>54CF6798-2305-531B-A630-31CD2B7E20DC</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="mouvement date" id="8BE09510-DF28-3B3D-AD77-963648924DD7">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est la date à laquelle le mouvement a été effectué</comment>
+<generatorID>201F7296-FBF0-B843-8EDB-6A6357CDFBF5</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="mouvement valeur" id="54C237D6-9AB8-3747-3B60-273277A64A8C">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est la quantité de mouvement</comment>
+<generatorID>9A82D079-F7A8-48EC-D262-CF0674C1D471</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D7BC2BF-931B-D917-B6CF-9EA66C754DEA" name="Mouvement PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>41DE4255-332B-C50E-B103-39B38DF8A465</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79958330-798E-9C0F-F185-7DEC59E29ED0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

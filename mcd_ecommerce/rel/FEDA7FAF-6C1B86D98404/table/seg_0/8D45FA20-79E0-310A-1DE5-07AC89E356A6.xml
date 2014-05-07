@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D45FA20-79E0-310A-1DE5-07AC89E356A6" name="Pays">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 09:18:43 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pays_id" id="23392B01-5B94-6DD8-8607-A9345AEDFAB7">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:38:25 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du pays</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pays_nom" id="DF58D75E-0333-ADB6-DE23-23D145F57A5C">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:38:25 UTC</createdTime>
+<comment>C&apos;est le nom du pays</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA18747C-AF36-45B8-8CB9-7963F7A6D32B" name="Pays_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:38:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23392B01-5B94-6DD8-8607-A9345AEDFAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

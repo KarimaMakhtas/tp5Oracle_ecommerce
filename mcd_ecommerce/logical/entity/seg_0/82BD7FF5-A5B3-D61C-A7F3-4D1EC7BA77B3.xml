@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82BD7FF5-A5B3-D61C-A7F3-4D1EC7BA77B3" name="Ligne commande">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>439CB0CB-193F-594E-41AF-E67C0AF2F377</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Articles numero" id="F2B6EFB9-782C-3936-D2E5-728AD8086E09">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>c&apos;est l&apos;identifiant de l&apos;article</comment>
+<generatorID>7C9F66D7-8BF3-414E-C3DC-0AE7A48FF625</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>E4185E83-CF4B-951B-8ABA-FD3E98762F48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Commandes id" id="BBC6646A-A6D2-DAFA-0E18-C2801D559DF5">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est le numéro de commande</comment>
+<generatorID>C2E249CE-BACF-1162-F391-A66DC3A99A2C</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>0033A0BE-D892-1075-D2E2-7FCC165F6545</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="qte" id="A06C1078-C14C-8EC0-EDFB-E757B3927245">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est la quantité</comment>
+<generatorID>D309B082-1A9F-C57D-48A2-B5CF97F56519</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F420B525-D5F9-1203-811F-D87FF49661E3" name="Ligne commande PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>46F8BEBD-B13E-66C2-1244-77FB86DA9A6B</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBC6646A-A6D2-DAFA-0E18-C2801D559DF5</attributeRef>
+<attributeRef>F2B6EFB9-782C-3936-D2E5-728AD8086E09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

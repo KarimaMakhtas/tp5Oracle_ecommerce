@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adresses_Pays_FK" directorySegmentName="seg_0" id="89513942-F0D5-B282-666C-DD70B80E5258">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>8A526010-FFE8-C7EB-6615-53CBE55BF5DA</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<sourcePk>2F79D193-AFE6-FD46-1125-7BDB1AE54F9C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F3F6C91-9878-C6D4-2001-E7D11495E309</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7BDD72F9-2448-5F60-A8C7-A50738231B13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

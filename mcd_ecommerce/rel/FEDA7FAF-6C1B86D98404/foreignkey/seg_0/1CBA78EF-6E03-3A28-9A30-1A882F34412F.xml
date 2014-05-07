@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1CBA78EF-6E03-3A28-9A30-1A882F34412F" name="Commandes_Clients_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:55:08 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<containerWithKeyObject>70FE6FFC-6D9B-CA51-F16A-0B2C29B722F5</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5F4AF8D2-B91B-3E2B-FFC7-365954842633</localFKIndex>
+<keyObject>34F1B74D-1F7B-5CCE-128B-91A7253F6801</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

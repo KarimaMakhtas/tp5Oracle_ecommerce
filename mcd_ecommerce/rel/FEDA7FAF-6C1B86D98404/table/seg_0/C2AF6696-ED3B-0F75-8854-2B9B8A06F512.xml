@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2AF6696-ED3B-0F75-8854-2B9B8A06F512" name="Adresses">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 09:19:07 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="adresses_id" id="7C5B3A32-370B-69DA-A6CE-F7431D0D85AE">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:36:15 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant de l&apos;adresse</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresses_rue" id="4406E379-5FFB-691D-6295-9D7982F4FB29">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:36:15 UTC</createdTime>
+<comment>C&apos;est le nom de la rue</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresses_complement" id="D64B0DED-491D-E033-D865-4511C0680E70">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:36:15 UTC</createdTime>
+<comment>C&apos;est le complément d&apos;adresse ( batiment, escalier, Résidence, etage...)</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse_codePostal" id="6B48B263-38FE-9B5D-6289-21D1C3E2840C">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:36:15 UTC</createdTime>
+<comment>C&apos;est le code postal de la ville</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresses_ville" id="5855AC5B-D483-1B3C-58FE-D39EFF0258F3">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:36:15 UTC</createdTime>
+<comment>C&apos;est le nom de la ville</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pays_id" id="2FD8F6F6-A00E-4FE9-8AC2-1E0ABC832A59">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:37:12 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant pays où se situe l&apos;adresse</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pays_pays_id" id="C1CDF5FE-4BDA-C716-01C7-8BC33D7CAEAA">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:38:35 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>23392B01-5B94-6DD8-8607-A9345AEDFAB7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A526010-FFE8-C7EB-6615-53CBE55BF5DA" referredColumn="23392B01-5B94-6DD8-8607-A9345AEDFAB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11028BAE-D0DB-B55F-6FD8-8EEA92681329" name="Adresses_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:36:15 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C5B3A32-370B-69DA-A6CE-F7431D0D85AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E95B02C-1C11-F51D-0EB5-D29F59D57AA6" name="Adresses_Pays_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:38:35 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1CDF5FE-4BDA-C716-01C7-8BC33D7CAEAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

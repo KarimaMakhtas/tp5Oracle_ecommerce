@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0F3F6C91-9878-C6D4-2001-E7D11495E309" name="Pays" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1232836D-6663-022D-05C9-F8B328ECE244" name="Adresser Livraison" seqName="seg_0"/>
+   <object objectType="Entity" objectID="27CF75ED-78EC-8FD4-B86A-F6A8CDE37FC4" name="Changement" seqName="seg_0"/>
+   <object objectType="Entity" objectID="34593BC0-B58B-2787-0AC7-6B73A2EC0AFD" name="DateAdresse" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3BD77975-B97A-9DE5-EC96-FC00A4BC3729" name="Mouvement" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5D3665A1-74FD-9173-1500-64BEC80F2102" name="Repertorie" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6DD39C92-947C-DC52-4A5C-EAD6893916C0" name="Commandes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="71DD2024-8C5D-99F9-1E15-E1F5DA2A3947" name="Subir M" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7BDD72F9-2448-5F60-A8C7-A50738231B13" name="Adresses" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7CECAA1E-9C3A-9488-03B2-6178F91C569B" name="Fournir" seqName="seg_0"/>
+   <object objectType="Entity" objectID="82BD7FF5-A5B3-D61C-A7F3-4D1EC7BA77B3" name="Ligne commande" seqName="seg_0"/>
+   <object objectType="Entity" objectID="82E0940F-16D6-D34D-DAB1-016DBFBBA513" name="Facturer" seqName="seg_0"/>
+   <object objectType="Entity" objectID="926A2845-B3A7-71F9-6719-074DEA3B89F0" name="Appartenir" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BE8C977C-94D6-797F-9F4B-7E8977244030" name="Catalogues" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C3019789-BB09-9983-39E1-FF5E44DA5705" name="Clients" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D3F055F0-4426-9A2D-A34C-4C414A5CB8BA" name="Fournisseur" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DBFB78AF-74DB-DE66-A9C5-5B8E3A200326" name="Articles" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E0B4D22E-E355-28C5-F16E-95FDF73AF58F" name="Subir" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E621E669-703F-4C9B-4AD2-D080D4563C22" name="Champs" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FE196DCB-8FFC-60BC-9A0B-D0BC9D67D955" name="Categorie" seqName="seg_0"/>
+   <object objectType="Relation" objectID="02AB2BDA-9DFE-2C29-9AD5-DECED9AE70F2" name="Subir_Changement_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="02F7C2F3-1CD2-DCD8-C9B2-1756E5D7866F" name="Subir_Articles_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1C1CC245-27E0-21D6-5418-7671335DEA21" name="Commandes_Clients_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2198DCB4-2A4C-5982-C9D7-80B6DF270408" name="Fornisseur_Adresses_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="245D8CC9-8AEA-6BF8-BDE7-C4D5F0C9CC41" name="Subir_M_Mouvement_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="297A2C1F-B106-D329-7163-B7EF5EAD80A2" name="Fournir_Fornisseur_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="45F5248E-A63C-33BC-2F44-A349C278D205" name="Repertorie_Catalogues_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="497C93B2-064E-8799-80F9-FE0F1687FFC3" name="Subir_M_Articles_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="51A92A6F-7546-0C10-ED53-CB8F9A53CA44" name="Appartenir_Categorie_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7C9F66D7-8BF3-414E-C3DC-0AE7A48FF625" name="Ligne_commande_Articles_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="87280B8B-9123-FFB5-96FA-448CA8038F03" name="Subir_Champs_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="89513942-F0D5-B282-666C-DD70B80E5258" name="Adresses_Pays_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="92C3AC50-55D9-80BF-661D-B2401BA6ADF1" name="AdresserLivr Commandes FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="956DDB38-DC5D-D0A3-4D62-2BFC612DD530" name="Facturer_Adresses_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99BF762F-3ADA-6ADB-4EBE-3DE123D604F0" name="Fournir_Articles_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9B453207-76F3-9827-2AA6-7717AE42D81E" name="Facturer_DateAdresse_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A2CB2100-B28A-6613-440F-E82B72E5CEAA" name="Repertorie_Articles_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B089AAE0-2995-95F4-B758-7A5715A632D9" name="Appartenir_Articles_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BA3A4945-0B7C-C1E1-E503-C89CE1440997" name="AdresserLivr Adresses FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C2E249CE-BACF-1162-F391-A66DC3A99A2C" name="Ligne_commande_Commandes_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FB8ABE4B-7784-0B4A-AD9D-9601598DE0E3" name="Facturer_Commandes_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

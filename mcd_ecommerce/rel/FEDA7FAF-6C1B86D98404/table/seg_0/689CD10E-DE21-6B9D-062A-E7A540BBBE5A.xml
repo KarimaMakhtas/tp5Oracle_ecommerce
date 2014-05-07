@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="689CD10E-DE21-6B9D-062A-E7A540BBBE5A" name="Fournisseur">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:56:53 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fournisseur_id" id="D142BF8F-76A2-E5C5-BAEB-19776701B975">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:58:39 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du fournisseur</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fournisseur_libelle" id="15CAB4D7-40D1-EA60-E5DD-AEC96D469BD8">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:58:39 UTC</createdTime>
+<comment>C&apos;es le nom du fournisseur</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresses_adresses_id" id="7588A677-1FB0-70EF-2B69-EA43315CB561">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:04:06 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7C5B3A32-370B-69DA-A6CE-F7431D0D85AE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60BC816C-1C25-F9EB-D7F5-26E6388D36D9" referredColumn="7C5B3A32-370B-69DA-A6CE-F7431D0D85AE"/>
+</associations>
+</Column>
+<Column name="fournisseur_email" id="C174084A-E141-213A-33A2-2E8B956796FB">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:05:48 UTC</createdTime>
+<comment>c&apos;est l&apos;adresse courriel du fournisseur</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1341912B-3B73-9A58-09C5-481258D596D8" name="Fornisseur_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:58:39 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D142BF8F-76A2-E5C5-BAEB-19776701B975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FE9F448-254B-FF7A-5149-FC99FA25EED3" name="Fornisseur_Adresses_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:04:06 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7588A677-1FB0-70EF-2B69-EA43315CB561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

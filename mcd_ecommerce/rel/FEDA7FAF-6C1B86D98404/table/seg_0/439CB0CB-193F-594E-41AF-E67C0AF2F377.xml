@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="439CB0CB-193F-594E-41AF-E67C0AF2F377" name="Ligne_commande">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:08:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Articles_numero" id="A25D04A8-FA8A-4F86-82F8-DD79117E5033">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:09:12 UTC</createdTime>
+<comment>c&apos;est l&apos;identifiant de l&apos;article</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1094F4E7-8647-2E60-9AE7-93C206C993FE" referredColumn="87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9"/>
+</associations>
+</Column>
+<Column name="Commandes_id" id="13802517-BE00-8009-1FA9-74CA0B44B4E2">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:09:22 UTC</createdTime>
+<comment>C&apos;est le numéro de commande</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0520788D-ECD1-5A40-F248-6658CFB5EB1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42FE8A46-7001-887E-AB52-1B66C8C13662" referredColumn="0520788D-ECD1-5A40-F248-6658CFB5EB1C"/>
+</associations>
+</Column>
+<Column name="qte" id="D309B082-1A9F-C57D-48A2-B5CF97F56519">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:11:50 UTC</createdTime>
+<comment>C&apos;est la quantité</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46F8BEBD-B13E-66C2-1244-77FB86DA9A6B" name="Ligne_commande_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:12:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13802517-BE00-8009-1FA9-74CA0B44B4E2"/>
+<colUsage columnID="A25D04A8-FA8A-4F86-82F8-DD79117E5033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98C09456-F794-364A-E5EA-B103922CD8C4" name="Ligne_commande_Articles_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:09:12 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A25D04A8-FA8A-4F86-82F8-DD79117E5033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="657032C6-2410-9C21-4897-FAC7258AB7E7" name="Ligne_commande_Commandes_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 22:09:22 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13802517-BE00-8009-1FA9-74CA0B44B4E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

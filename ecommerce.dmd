@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ecommerce" id="52F170D0-DB93-01C0-EA6C-55F5211476E3" version="3.5">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:14:27 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>52F170D0-DB93-01C0-EA6C-55F5211476E3</designId>
+</OSDM_Design>

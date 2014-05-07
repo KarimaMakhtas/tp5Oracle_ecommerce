@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FCB65FD-3E90-0432-47EE-0F2E072780D9" name="Repertorie">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:47:07 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Articles_articles_numero" id="98E2C759-E7EE-1441-52DB-BDF8DE0F3E0A">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:47:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F596E73B-E7B4-CD0A-FDF0-76A4E5857BDF" referredColumn="87ECEE8F-1B6E-0EB0-EAA5-D0D600FAC5A9"/>
+</associations>
+</Column>
+<Column name="Catalogues_catalogue_id" id="484E88FF-E501-7D8F-0E0A-F98F5CD32315">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:47:46 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>005392D5-319A-6521-0E75-5E35D4D86C3B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F9ED679-F624-2582-1166-D42685726CBB" referredColumn="005392D5-319A-6521-0E75-5E35D4D86C3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D683A04E-879A-A5C9-68A2-C99C02C679DD" name="Repertorie_Articles_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:47:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98E2C759-E7EE-1441-52DB-BDF8DE0F3E0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86EB8ED5-B92A-DA18-F179-F3EFEDF10BC8" name="Repertorie_Catalogues_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 20:47:46 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484E88FF-E501-7D8F-0E0A-F98F5CD32315"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Facturer_Commandes_FK" directorySegmentName="seg_0" id="FB8ABE4B-7784-0B4A-AD9D-9601598DE0E3">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>0F730CD1-1C60-FD92-35AA-565CFEAA486D</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<sourcePk>715F2007-528A-467D-0C56-0C6FB853E812</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DD39C92-947C-DC52-4A5C-EAD6893916C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>82E0940F-16D6-D34D-DAB1-016DBFBBA513</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

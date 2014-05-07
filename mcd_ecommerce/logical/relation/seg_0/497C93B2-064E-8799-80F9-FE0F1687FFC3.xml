@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Subir_M_Articles_FK" directorySegmentName="seg_0" id="497C93B2-064E-8799-80F9-FE0F1687FFC3">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>DB048668-E75E-EB6E-6E93-9BA2C418487C</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<sourcePk>DB3FE0DC-A2F2-8DDB-4C83-F0175007E480</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DBFB78AF-74DB-DE66-A9C5-5B8E3A200326</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>71DD2024-8C5D-99F9-1E15-E1F5DA2A3947</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

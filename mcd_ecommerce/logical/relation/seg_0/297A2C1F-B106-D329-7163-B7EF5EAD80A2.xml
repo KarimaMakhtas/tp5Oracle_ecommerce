@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fournir_Fornisseur_FK" directorySegmentName="seg_0" id="297A2C1F-B106-D329-7163-B7EF5EAD80A2">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>E485E38C-9008-352A-12F4-41BC35908606</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<sourcePk>63C0EED2-C2B6-A003-232A-F9D65D8C29B2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3F055F0-4426-9A2D-A34C-4C414A5CB8BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7CECAA1E-9C3A-9488-03B2-6178F91C569B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mcd_ecommerce" id="B2C66AF1-954E-28A1-8BC3-A3DC806BB22E" version="3.5">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 08:15:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B2C66AF1-954E-28A1-8BC3-A3DC806BB22E</designId>
+</OSDM_Design>

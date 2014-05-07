@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0B4D22E-E355-28C5-F16E-95FDF73AF58F" name="Subir">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>BA9F50BD-636D-C548-5085-7E0FA6D7673C</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="champs id" id="EFE9C602-3265-8F2E-CEFD-6FFA4AFA6D55">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du champ concerné par le changement.</comment>
+<generatorID>87280B8B-9123-FFB5-96FA-448CA8038F03</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>A2CF4630-2A13-FAEB-137A-3F8EB9837CD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="changements id" id="BC706389-4376-A1DE-895B-5D796FB82AC4">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du changement</comment>
+<generatorID>02AB2BDA-9DFE-2C29-9AD5-DECED9AE70F2</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>62A5F2EB-76C0-E692-03BB-F9A93812AD7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="articles numero" id="2E4D1CEE-EB47-E499-ECB4-E93275086650">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant d&apos;un article</comment>
+<generatorID>02F7C2F3-1CD2-DCD8-C9B2-1756E5D7866F</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<referedAttribute>E4185E83-CF4B-951B-8ABA-FD3E98762F48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="346A75DC-43BC-FE94-3E41-645869FC158F" name="Subir PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>8DDCA555-9C77-3468-1A23-8D68C61D2D95</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFE9C602-3265-8F2E-CEFD-6FFA4AFA6D55</attributeRef>
+<attributeRef>BC706389-4376-A1DE-895B-5D796FB82AC4</attributeRef>
+<attributeRef>2E4D1CEE-EB47-E499-ECB4-E93275086650</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

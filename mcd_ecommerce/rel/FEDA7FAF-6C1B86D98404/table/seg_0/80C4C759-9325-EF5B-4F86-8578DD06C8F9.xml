@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80C4C759-9325-EF5B-4F86-8578DD06C8F9" name="Clients">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 09:15:57 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clients_id" id="1F82C24A-C39A-3BE3-5262-3001D1669E2E">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:19:43 UTC</createdTime>
+<comment>C&apos;est l&apos;identifiant du client</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clients_nom" id="CB57139D-3417-756C-6F38-D137F263B872">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:19:43 UTC</createdTime>
+<comment>C&apos;est le nom du client</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clients_prenom" id="E0E6C96B-A031-582A-5571-09F6FFB27D53">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:19:43 UTC</createdTime>
+<comment>C&apos;est le prénom du client</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34F1B74D-1F7B-5CCE-128B-91A7253F6801" name="Clients_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-09 10:19:43 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F82C24A-C39A-3BE3-5262-3001D1669E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

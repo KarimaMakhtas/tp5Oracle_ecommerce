@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AdresserLivr Commandes FK" directorySegmentName="seg_0" id="92C3AC50-55D9-80BF-661D-B2401BA6ADF1">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>0A0CC525-8B60-E913-659D-850729320A8F</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<sourcePk>715F2007-528A-467D-0C56-0C6FB853E812</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DD39C92-947C-DC52-4A5C-EAD6893916C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1232836D-6663-022D-05C9-F8B328ECE244</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

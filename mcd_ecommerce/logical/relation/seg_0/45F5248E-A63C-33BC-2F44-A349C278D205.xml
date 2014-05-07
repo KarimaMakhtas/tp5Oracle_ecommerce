@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Repertorie_Catalogues_FK" directorySegmentName="seg_0" id="45F5248E-A63C-33BC-2F44-A349C278D205">
+<createdBy>Myc</createdBy>
+<createdTime>2014-05-06 21:24:38 UTC</createdTime>
+<generatorID>9F9ED679-F624-2582-1166-D42685726CBB</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<engineerTo>
+<item key="FEDA7FAF-4DFE-64FE-E148-6C1B86D98404" value="true"/>
+</engineerTo>
+<sourcePk>74BD6B3A-F023-5A7B-D6C3-1E2B9D00BB6E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE8C977C-94D6-797F-9F4B-7E8977244030</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D3665A1-74FD-9173-1500-64BEC80F2102</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
